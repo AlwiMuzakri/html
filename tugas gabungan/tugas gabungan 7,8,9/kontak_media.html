@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Kontak & Media</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>Kontak & Media</h1>
+        <p>Selamat datang di halaman kontak saya.</p>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- SECTION VIDEO -->
+        <section>
+            <h2>Video Perkenalan</h2>
+            <video
+                width="500"
+                controls>
+            <source src="video/perkenalan.mp4"
+                        type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+        </section>
+        <hr>
+        <!-- SECTION AUDIO -->
+        <section>
+            <h2>Audio Perkenalan</h2>
+            <audio controls>
+                <source src="audio/perkenalan.mp3"
+                        type="audio/mpeg">
+                Browser Anda tidak mendukung audio.
+            </audio>
+        </section>
+        <hr>
+        <!-- SECTION FORM -->
+        <section>
+            <h2>Form Kontak</h2>
+            <form>
+                <fieldset>
+                    <legend>Data Pengunjung</legend>
+                    <!-- Nama -->
+                    <label for="nama">Nama</label>
+                    <br>
+                    <input
+                        type="text"
+                        id="nama"
+                        name="nama"
+                        placeholder="Masukkan nama"
+                        required>
+                    <br>
+                    <!-- Email -->
+                    <label for="email">Email</label>
+                    <br>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Masukkan email"
+                        required>
+                    <br>
+                    <!-- Jenis Kelamin -->
+                    <p>Jenis Kelamin</p>
+                    <input
+                        type="radio"
+                        id="laki"
+                        name="gender">
+                    <label for="laki">Laki-laki</label>
+                    <input
+                        type="radio"
+                        id="perempuan"
+                        name="gender">
+                    <label for="perempuan">Perempuan</label>
+                    <br><br>
+                    <!-- Hobi -->
+                    <p>Hobi</p>
+                    <input
+                        type="checkbox"
+                        id="game">
+                    <label for="game">Game</label>
+                    <input
+                        type="checkbox"
+                        id="musik">
+                    <label for="musik">Musik</label>
+                    <input
+                        type="checkbox"
+                        id="ngoding">
+                    <label for="ngoding">Ngoding</label>
+                    <br><br>
+                    <!-- Kota -->
+                    <label for="kota">Kota</label>
+                    <br>
+                    <select id="kota">
+                        <option>Medan</option>
+                        <option>Jakarta</option>
+                        <option>Bandung</option>
+                    </select>
+                    <br>
+                    <!-- Pesan -->
+                    <label for="pesan">Pesan</label>
+                    <br>
+                    <textarea
+                        id="pesan"
+                        rows="5"
+                        cols="40"
+                        placeholder="Tulis pesan..."></textarea>
+                    <br><br>
+                    <button type="submit">
+                        Kirim
+                    </button>
+                    <button type="reset">
+                        Reset
+                    </button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <hr>
+        <p>© 2026 Noba</p>
+    </footer>
+</body>
+</html>
