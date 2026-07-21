@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alwi Muzakri | Register</title>
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+    <nav>
+        <a href="../home.html">ke halaman home</a>
+        <a href="../biodata/index.html">ke halaman biodata</a>
+        <a href="../portfolio/index.html">ke halaman portofolio</a>
+        <a href="../login/index.html">ke halaman login</a>
+        <a href="index.html">ke halaman register</a>
+    </nav>
+    <main>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>data pendaftaran</legend>
+                    <label for="nama">Nama</label>
+                    <br>
+                    <input type="text"
+                           id="nama"
+                           name="nama"
+                           placeholder="masukan nama"
+                           required>
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="masukan email"
+                           required>
+                    <br>
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           placeholder="masukan password"
+                           required>
+                    <br>
+                    <p>Tanggal lahir</p>
+                    <input type="date">
+                    <br>
+                    <p>Jenis kelamin</p>
+                    <input type="radio"
+                           id="laki"
+                           name="gender">
+                    <label for="laki">Laki-laki</label>
+                    <input type="radio"
+                           id="perempuan"
+                           name="gender">
+                    <label for="perempuan">Perempuan</label>
+                    <br>
+                    <p>Bahasa favorit</p>
+                    <select id="bahasa">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="javascript">JS</option>
+                    </select>
+                    <br>
+                    <p>Hobi</p>
+                    <input type="checkbox"
+                           id="game">
+                    <label for="game">Game</label>
+                    <input type="checkbox"
+                           id="musik">
+                    <label for="musik">Musik</label>
+                    <input type="checkbox"
+                           id="ngoding">
+                    <label for="ngoding">Ngoding</label>
+                    <br>
+                    <p>Bio singkat</p>
+                    <textarea id="pesan"
+                              rows="5"
+                              cols="40"
+                              placeholder="tulis pesan..."></textarea>
+                    <br>
+                    <input type="checkbox"
+                           id="check"
+                           required>
+                    <label for="check">Saya setuju dengan syarat dan ketentuan</label>
+                    <br>
+                    <button type="submit">Daftar</button>
+                    <button type="reset">Reset</button>
+                    <br>
+                    <p>Sudah punya akun?</p>
+                    <a href="../login/index.html" target="_blank">Masuk</a>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>©2026 Alwi Muzakri</p>
+    </footer>
+</body>
+</html>
